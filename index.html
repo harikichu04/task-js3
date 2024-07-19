@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script>
+//=======================array filter=========================================================
+
+    let numbers=[15,20,30,40,50]
+    let greaterThan=numbers.filter(numbers =>numbers>20)
+    console.log(greaterThan)
+//=======================array mapping=========================================================
+
+
+    let str=["hari","arun","akash","guhan"]
+    let upper=str.map((x)=>x.toUpperCase())
+    console.log(upper)
+
+//=======================array finding=========================================================
+
+
+
+    let num=[1,2,3,4,5,6,7,8]
+    let num2=num.find((x)=>x>6)
+    console.log(num2)
+
+//=======================string findingr=========================================================
+
+
+
+    let strs=["blue","green","red"]
+    let colors=strs.find(colors=>colors.startsWith("g"))
+    console.log(colors)
+
+//=======================array input from user=========================================================
+
+
+
+    let length=5;
+    let arr=[];
+    for(let i=0;i<length;i++)
+    arr[i]=prompt()
+console.log(arr)
+
+
+
+</script>
+<body>
+    
+</body>
+
+</html>
